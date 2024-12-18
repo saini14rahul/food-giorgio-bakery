@@ -1,0 +1,536 @@
+body { background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4a4c+0,0c0d0b+100 */
+    background: #4c4a4c; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #4c4a4c 0%, #0c0d0b 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover,  #4c4a4c 0%,#0c0d0b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center,  #4c4a4c 0%,#0c0d0b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4a4c', endColorstr='#0c0d0b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    ; }
+
+
+p, a { font-family: 'Roboto Slab'; }
+h2, h1, figcaption { font-family: 'Lobster'; }
+
+.responsive_logo { display: none; }
+.responsive_icon { display: none; }
+.navbar .navbar-brand img { height: 100px; }
+.navbar .navbar-expand-lg .navbar-nav .dropdown-menu { position: initial; }
+.navbar .nav-item { margin-right: 80px; align-self: center; } 
+.navbar .nav-item:nth-child(7) { margin-left: -30px; margin-right: 0; }
+.navbar .navbar-brand { margin-right: 60px; }
+.navbox .nav-link { color: #ffffff; }
+.dropdown-menu[data-bs-popper] { left: auto; top: auto; }
+.navbar-expand-lg .navbar-nav { margin: 0 auto; }
+.navbar-expand-lg .navbar-nav .nav-link { padding: 0 10px; }
+
+.sliderbox { position: relative; }
+.sliderbox .wheat-in-bowl { position: absolute; z-index: 2; bottom: -40px; left: 100px; }
+.sliderbox .wheat-in-bowl img { width: 130px; }
+.sliderbox .wheat_2 { position: absolute; top: 100px; left: -120px; }
+.sliderbox .wheat_2 img { width: 210px; }
+.sliderbox .leaf { position: absolute; z-index: 2; right: -100px; top: -40px; }
+.sliderbox .leaf img { width: 100px; }
+
+.sliderbox .slide { position: relative; }
+.sliderbox .slide .carousel-indicators { right: auto; opacity: 5; position: absolute; top: 170px; left: 40px; margin-left: 0; display: block;  }
+.sliderbox .slide .carousel-indicators li { position: relative;  margin: 15px 0; opacity: 5; height: 10px; width: 10px; background: none; border: 2px solid #ffffff; border-radius: 10px; }
+.sliderbox .slide .carousel-indicators li::after { content: ""; width: 2px; height: 15px; position: absolute; top: 12px; left: 4px; background: #fff; }
+.sliderbox .slide .carousel-indicators li:last-child::after { display: none; }
+
+.sliderbox .slide .carousel-indicators .active::after { content: ""; width: 2px; height: 15px; position: absolute; top: 12px; left: 4px; background: #F4CE13; }
+
+.sliderbox .slide .carousel-control-prev { left: 0; bottom: 280px; }
+.sliderbox .slide .carousel-control-prev-icon { background-image: none; position: absolute; top: 100px; left: 34px; color: #F4CE13; }
+
+.sliderbox .slide .carousel-control-next { top: 280px; left: 0; }
+.sliderbox .slide .carousel-control-next-icon { background-image: none; position: absolute; bottom: 80px; left: 32px;  color: #F4CE13; }
+
+.sliderbox .slide .carousel-indicators .active { border-color: #F4CE13; }
+
+.sliderbox .slide .slider_1 { border: 20px solid #373636; border-radius: 10px; position: relative;  }
+.sliderbox .slide .slider_1 .info { text-align: right; width: 525px; background-color: #232426cc; position: absolute; bottom: 0; top: 0; color: #ffffff; padding: 60px 100px 0px 140px; z-index: 1; }
+.sliderbox .slide .slider_1 .info img { width: 95px; }
+
+.sliderbox .slide .slider_1 .info p { color: #F4CE13; font-family: 'Roboto Slab'; border-bottom: 1px solid #FFFFFF; padding-bottom: 20px; }
+.sliderbox .slide .slider_1 .info a { color: #ffffff; margin-left: 25px; text-decoration: none; }
+.sliderbox .slide .slider_1 .info h2 { font-family: 'Lobster'; }
+.sliderbox .slide .slider_1 .info h3 { margin-top: 20px; font-family: 'Roboto Slab'; }
+.sliderbox .slide .slider_1 .info h3 a { color: #F4CE13; border: 1px solid #F4CE13; padding: 10px 40px; font-size: 14px; }
+.sliderbox .slide .slider_1 .info h3 a:hover {  background-color: #F4CE13; color: #000000; }
+.sliderbox .slide .slider_1 .info a span { padding-left: 5px; }
+
+.our-heritage { text-align: center; margin: 100px auto; position: relative; }
+.our-heritage figure { margin: 0 0;}
+.our-heritage figcaption { font-size: 40px; color: #ffffff;  }
+.our-heritage h3 { font-size: 14px; color: #F4CE13; }
+.our-heritage p { font-size: 14px; color: #ffffff; margin: 30px auto; width: 710px; }
+.our-heritage .flour_and_bowl { position: absolute; top: 0; right: 0; }
+.our-heritage .flour_and_bowl img { width: 160px; }
+.our-heritage .garlic { position: absolute; bottom: 0; }
+.our-heritage .garlic img { width: 110px; transform: rotate(-110deg); }
+.our-heritage .knife { position: absolute; bottom: 0; right: -120px; transform: rotate(-45deg); }
+.our-heritage .knife img { width: 460px; }
+.our-heritage a.find_out_button { font-size: 14px; color: #F4CE13; border: 1px solid #F4CE13; padding: 10px;  text-decoration: none; }
+.our-heritage a.find_out_button:hover { background-color: #F4CE13; color: #000000; }
+
+.bread_menu { text-align: center; }
+.bread_menu figcaption { font-size: 40px; color: #ffffff; }
+.bread_menu .sliderbox .slide .carousel-indicators { display: flex; margin-right: 0; margin-left: 0; right: 0; left: 0; top: 420px; }
+.bread_menu .sliderbox .slide .carousel-indicators li { margin: 15px 7px; }
+.bread_menu .sliderbox .slide .carousel-indicators li::after { height: 2px; width: 15px; top: 4px; left: 12px; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 { display: flex; height: 500px; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 .product_size { padding: 0 45px; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 .product_size .w-100 { height: 40%; width: 80%!important; display: initial!important; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 .product_size .info_2 { text-align: center; bottom: 0; top: 0; color: #ffffff; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 .product_size .info_2 img { width: 95px; }
+
+.bread_menu .sliderbox .slide .slider_two .slider_2 .product_size .info_2 p { color: #F4CE13; font-family: 'Roboto Slab'; border-bottom: 1px solid #FFFFFF; padding-bottom: 20px; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 .product_size .info_2 a { color: #ffffff; margin: 0 10px; text-decoration: none;  }
+.bread_menu .sliderbox .slide .slider_two .slider_2 .product_size .info_2 h2 { font-family: 'Lobster'; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 .product_size .info_2 h3 { margin-top: 20px; font-family: 'Roboto Slab'; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 .product_size .info_2 h3 a { color: #F4CE13; border: 1px solid #F4CE13; padding: 10px 40px; font-size: 14px; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 .product_size .info_2 h3 a:hover {  background-color: #F4CE13; color: #000000; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 .product_size .info_2 a span { padding-left: 5px; }
+.bread_menu .sliderbox .slide .slider_two { border-radius: none; border: none; }
+.bread_menu .sliderbox .slide .carousel-control-prev { left: -120px; top: 140px; bottom: 190px; }
+.bread_menu .sliderbox .slide .previous_arrow { position: absolute; top: 70px; left: 80px; transform: rotate(-90deg); } 
+.bread_menu .sliderbox .slide .carousel-control-next { left: 1040px; top: 140px; bottom: 190px;  }
+.bread_menu .sliderbox .slide .next_arrow { position: absolute; top: 70px; left: 90px; transform: rotate(-90deg); }
+
+
+
+
+.bread_recipes { text-align: center; position: relative; }
+.bread_recipes figure { margin: 0 0;}
+.bread_recipes figcaption { font-size: 40px; color: #ffffff; }
+.bread_recipes h3 { color: #face13; font-size: 14px; }
+.bread_recipes h3:nth-child(4) { margin-top: 50px; }
+.bread_recipes p { color: #ffffff; font-size: 14px; }
+.bread_recipes .yellow_liquid { position: absolute; top: 0; }
+.bread_recipes .yellow_liquid img { width: 200px; }
+.bread_recipes .lettuce-leaf { position: absolute; top: 0; right: 0; }
+.bread_recipes .lettuce-leaf img { width: 240px; }
+
+.bread_recipes .mainwrapper { color: #fff; height: 300px; display: table; position: relative; }
+.bread_recipes .mainwrapper .single_garlic { position: absolute; bottom: -100px; left: -150px; }
+.bread_recipes .mainwrapper .wheat_in_bowl_2 { position: absolute; bottom: -100px;  right: -50px; }
+.bread_recipes .mainwrapper .wheat_in_bowl_2 img { width: 150px; }
+.bread_recipes .mainwrapper .cntr { float: left; width: 590px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-inner { border: none; border-radius: initial; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-indicators { display: flex; top: 400px; margin: 0 auto; left: 0; right: 0; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-indicators li { margin: 10px 6px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-indicators li::after { width: 15px; height: 2px; top: 4px; left: 10px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-inner .carousel-item { height: 370px; }
+.container-lg { padding: 0; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-prev { bottom: -60px; left: 140px; top: 370px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-prev-icon { top: 31px; left: 40px; transform: rotate(-90deg); }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-next { left: 370px; bottom: -60px; top: 370px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-next-icon { top: 31px; left: 15px; transform: rotate(-90deg); }
+
+.bread_recipes .mainwrapper .timecntr { background: #C6A788; width: 200px; float: left; text-align: center; margin: 8px; }
+.bread_recipes .mainwrapper .timecntr .boderline { border: 2px solid #7F5330; width: 180px; margin: 10px auto; }
+.bread_recipes .mainwrapper .timecntr .boderline .boderline_2 { border: 2px solid #7F5330; width: 160px; margin: 10px auto; padding: 20px 0 20px 0;  }
+.bread_recipes .mainwrapper .timecntr .boderline .boderline_2 p { font-size: 14px; color: #7F5330; font-weight: bold; padding-top: 5px; margin-bottom: 0; }
+.bread_recipes .mainwrapper .timecntr .boderline .boderline_2 h2 { font-size: 50px; color: #000000; margin-bottom: 0; }
+.bread_recipes .mainwrapper .timecntr .boderline .boderline_2 p:nth-child(4) { color: #000000; border-bottom: 2px solid #7F5330; padding-bottom: 5px; margin: 0 auto; width: 120px; }
+
+.bread_recipes .mainwrapper .info { float: left; margin: 20px 0 40px 20px; text-align: left; }
+.bread_recipes .mainwrapper .info h2 { font-size: 50x; padding-bottom: 40px; }
+.bread_recipes .mainwrapper .info p { font-size: 16px; color: #F4CE13;  }
+
+.bread_recipes .mainwrapper .info ul li { color: #ffffff; font-size: 16px; }
+.bread_recipes .mainwrapper .info h3 a { font-size: 14px; border: 1px solid #F4CE13; color: #F4CE13; padding: 10px 40px; text-decoration: none;}
+.bread_recipes .mainwrapper .info h3 a:hover {  background-color: #F4CE13; color: #000000; }
+
+.footerwrapper { border: 20px solid #373636; border-radius: 10px; margin: 100px auto; display: table; } 
+.footerwrapper .footerwapper { margin: 50px 10px; align-items: center; }
+.footerwrapper .footerwapper p { width: 360px; color: #ffffff; font-size: 14px; float: left;  }
+.footerwrapper .footerwapper p span { padding: 0 30px 0 20px; color: #F4CE13; }
+.footerwrapper .footerwapper img { width: 70%; float: left; }
+.footerwrapper .footerwapper p:nth-child(3) { width: 280px; margin-left: 80px; float: left; }
+.footerwrapper .footerwapper p:nth-child(3) span { padding: 0; }
+.footerwrapper .footerwapper a.nav-link { line-height: 35px; width: 35px; color: #ffffff; float: left; font-size: 18px; border: 1px solid #ffffff; border-radius: 50%; margin-right: 10px; padding: 0; text-align: center; }
+
+
+
+@media (max-width: 479px) {
+
+.responsive_logo { display: block; position: relative; margin-top: 30px; }   
+.responsive_logo img {  top: 0; position: absolute; width: 30%; right: 0; left: 0; margin: 0 auto; }
+.responsive_icon { display: block; float: right; } 
+.responsive_icon i { color: #ffffff; float: left; margin-top: 15px; }
+.navbar .nav-item { align-self: inherit; }
+.navbar .navbar-brand { display: none; }
+.navbar .nav-item:nth-child(7) { display: none; }
+.dropdown-item { color: #ffffff; }
+.dropdown-menu { background: none; }
+.navbox { top: 10px; }
+.navbar-toggler { padding: 0; }
+.navbar-toggler-icon { color: #ffffff; }
+.navbar-toggler:focus { box-shadow: none; }
+.navbar-expand-lg .navbar-nav { position: absolute; z-index: 1; background-color: #000000; width: 100%; }
+.navbar-expand-lg .navbar-nav .nav-link { padding: 10px 10px; }
+.navbox .nav-link { color: #ffffff; }
+
+.container { width: 100%; } 
+
+.sliderbox { margin-top: 0!important; }  
+.sliderbox .slide .slider_1 { border: 10px solid #373636; padding-bottom: 20px; width: 90%; margin: 40px 20px; }
+.sliderbox .slide .slider_1 .info { background: none; position: initial; text-align: center; padding: 30px 220px 0px 30px; }
+.sliderbox .slide .slider_1 .info a { float: left; }
+.sliderbox .slide .slider_1 .info h3 { margin-top: 60px; margin-bottom: 120px; }
+.sliderbox .slide .slider_1 .info p { border: none; }
+.sliderbox .slide .carousel-control-prev-icon { display: none }
+.sliderbox .slide .carousel-control-next-icon { display: none; }
+.sliderbox .slide .carousel-indicators { display: none; }
+
+.sliderbox .wheat-in-bowl { left: 40px; bottom: 0; }
+.sliderbox .leaf { display: none; }
+.sliderbox .wheat_2 { display: none; }
+.sliderbox .wheat-in-bowl img { width: 70px; }
+
+.our-heritage { width: 90%; margin: 0px auto; }
+.our-heritage h3 { margin-top: 10px; }
+.our-heritage p { width: 100%; margin-top: 10px; }
+.our-heritage figcaption { font-size: 30px; }
+.our-heritage .flour_and_bowl img { width: 70px; }
+.our-heritage .garlic img { width: 70px; }
+.our-heritage .knife { bottom: 0px; right: -25px; }
+.our-heritage .knife img { width: 160px; }
+.our-heritage figure img { width: 70px; }
+
+.bread_menu { margin-top: 60px; }
+.bread_menu figure { margin: 0; }
+.bread_menu figure img { width: 100px; }
+.bread_menu figcaption { font-size: 30px; }
+.bread_menu .sliderbox .slide .carousel-indicators { top: initial; position: relative; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 .product_size { width: 100%; padding: 0 20px; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 { flex-direction: column; height: auto; }
+.bread_menu .sliderbox .slide .carousel-control-prev { left: 0; }
+.bread_menu .sliderbox .slide .carousel-control-next { left: 300px; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 .product_size .info_2 h3 { margin-bottom: 20px; }
+
+.bread_recipes .lettuce-leaf img { width: 110px; }
+.bread_recipes { margin-top: 70px; }
+.bread_recipes figure img { width: 70px; }
+.bread_recipes h3 { margin-top: 10px; }
+.bread_recipes figcaption { font-size: 30px; }
+.bread_recipes .mainwrapper .cntr { width: 100%; }
+.bread_recipes .mainwrapper .cntr .sliderbox { width: 100%; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-indicators { top: 230px; bottom: 100px; }
+.bread_recipes .mainwrapper .info h2 { padding-bottom: 0; }
+.bread_recipes .mainwrapper .info { text-align: center; margin: 20px 0 0px 20px; }
+.bread_recipes .mainwrapper .info ul li { text-align: left; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-prev { bottom: 90px; left: 70px; top: 230px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-prev-icon { top: 11px; left: 14px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-next { left: 230px; top: 230px; bottom: 90px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-next-icon { top: 11px; left: 15px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-inner .carousel-item { height: 280px; }
+.bread_recipes .mainwrapper .timecntr { width: 100%; margin: 0; }
+.bread_recipes .mainwrapper .timecntr .boderline { width: 95%; }
+.bread_recipes .mainwrapper .timecntr .boderline .boderline_2 { width: 95%; }
+.bread_recipes .yellow_liquid img { width: 70px; }
+.bread_recipes .mainwrapper .wheat_in_bowl_2 img { width: 70px; }
+.bread_recipes .yellow_liquid { left: 30px; }
+.bread_recipes .lettuce-leaf { right: 10px; }
+.bread_recipes .mainwrapper { margin: 0; }
+.bread_recipes .mainwrapper .wheat_in_bowl_2 { right: 10px; bottom: -30px; }
+
+.footerwrapper { border: none; border-radius: 0; margin: 55px auto; }
+.footerwrapper .footerwapper { margin: 0 10px; }
+.footerwrapper .footerwapper p { width: 100%; text-align: center; }
+.footerwrapper .footerwapper img { width: 50%; float: none; display: table; margin: 0 auto; }
+.footerwrapper .footerwapper a.nav-link { float: none; }
+.footerwrapper .footerwapper .footer-logo { order: 1; margin: 20px 0; }
+.footerwrapper .footerwapper .footer_icon { order: 2; text-align: center; }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+
+.responsive_logo { display: block; position: relative; margin-top: 20px; }   
+.responsive_logo img {  top: 0; position: absolute; width: 30%; right: 0; left: 0; margin: 0 auto; }
+.responsive_icon { display: block; float: right; } 
+.responsive_icon i { color: #ffffff; float: left; margin-top: 15px; }
+.navbar .nav-item { align-self: inherit; }
+.navbar .navbar-brand { display: none; }
+.navbar .nav-item:nth-child(7) { display: none; }
+.dropdown-item { color: #ffffff; }
+.dropdown-menu { background: none; }
+.navbox { top: 10px; }
+.navbar-toggler { padding: 0; }
+.navbar-toggler-icon { color: #ffffff; }
+.navbar-toggler:focus { box-shadow: none; }
+.navbar-expand-lg .navbar-nav { position: absolute; z-index: 1; background-color: #000000; width: 100%; }
+.navbar-expand-lg .navbar-nav .nav-link { padding: 10px 10px; }
+.navbox .nav-link { color: #ffffff; }
+
+.container { width: 100%; } 
+
+.sliderbox { margin-top: 0!important; }  
+.sliderbox .slide .slider_1 { border: 10px solid #373636; padding-bottom: 20px; width: 95%; margin: 80px 15px; }
+.sliderbox .slide .slider_1 .info { background: none; position: initial; text-align: center; padding: 30px 130px 0px 110px; }
+.sliderbox .slide .slider_1 .info a { float: left; }
+.sliderbox .slide .slider_1 .info h3 { margin-top: 60px; margin-bottom: 120px; }
+.sliderbox .slide .slider_1 .info p { border: none; }
+.sliderbox .slide .carousel-control-prev-icon { display: none }
+.sliderbox .slide .carousel-control-next-icon { display: none; }
+.sliderbox .slide .carousel-indicators { display: none; }
+
+.sliderbox .wheat-in-bowl { left: 50px; top: 990px; }
+.sliderbox .leaf { display: none; }
+.sliderbox .wheat_2 { display: none; }
+.sliderbox .wheat-in-bowl img { width: 120px; }
+
+.our-heritage { width: 90%; margin: -15px auto; }
+.our-heritage h3 { margin-top: 10px; }
+.our-heritage p { width: 95%; margin-top: 10px; }
+.our-heritage figcaption { font-size: 40px; }
+.our-heritage .flour_and_bowl img { width: 120px; }
+.our-heritage .garlic { bottom: -10px; }
+.our-heritage .garlic img { width: 100px; }
+.our-heritage .knife { bottom: 0px; right: -35px; }
+.our-heritage .knife img { width: 220px; }
+.our-heritage figure img { width: 70px; }
+
+.bread_menu { margin-top: 105px; }
+.bread_menu figure { margin: 0; }
+.bread_menu figure img { width: 100px; }
+.our-heritage figcaption { font-size: 40px; }
+.bread_menu .sliderbox .slide .carousel-indicators { top: 1550px; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 .product_size { width: 80%; margin: 0 auto; padding: 20px; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 { flex-direction: column; height: auto; }
+.bread_menu .sliderbox .slide .carousel-control-prev { left: 0; }
+.bread_menu .sliderbox .slide .carousel-control-next { left: 430px; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 .product_size .info_2 h3 { margin-bottom: 20px; }
+
+.bread_recipes .lettuce-leaf img { width: 150px; }
+.bread_recipes { margin-top: 80px; }
+.bread_recipes figure img { width: 70px; }
+.bread_recipes h3 { margin-top: 10px; }
+.bread_recipes figcaption { font-size: 40px; }
+.bread_recipes .mainwrapper .cntr { width: 100%; }
+.bread_recipes .mainwrapper .cntr .sliderbox { width: 100%; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-indicators { top: 280px; bottom: 100px; }
+.bread_recipes .mainwrapper .info h2 { padding-bottom: 0; }
+.bread_recipes .mainwrapper .info { text-align: center; margin: 0 auto; width: 100%;  }
+.bread_recipes .mainwrapper .info ul { width: 60%; margin: 0 auto; }
+.bread_recipes .mainwrapper .info ul li { text-align: left; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-prev { bottom: 90px; left: 70px; top: 230px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-prev-icon { top: 11px; left: 14px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-next { left: 230px; top: 230px; bottom: 90px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-next-icon { top: 11px; left: 15px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-inner .carousel-item { height: 280px; }
+.bread_recipes .mainwrapper .timecntr { width: 100%; margin: 50px 0 20px 0; }
+.bread_recipes .mainwrapper .timecntr .boderline { width: 95%; }
+.bread_recipes .mainwrapper .timecntr .boderline .boderline_2 { width: 95%; }
+.bread_recipes .yellow_liquid img { width: 120px; }
+.bread_recipes .mainwrapper .wheat_in_bowl_2 img { width: 120px; }
+.bread_recipes .yellow_liquid { left: 30px; }
+.bread_recipes .lettuce-leaf { right: 10px; }
+.bread_recipes .mainwrapper { margin: 0; }
+.bread_recipes .mainwrapper .wheat_in_bowl_2 { right: 10px; bottom: -30px; }
+
+.footerwrapper { border: none; border-radius: 0; margin: 80px auto; text-align: center; }
+.footerwrapper .footerwapper { margin: 0 10px; }
+.footerwrapper .footerwapper p { width: 100%; }
+.footerwrapper .footerwapper img { width: 50%; float: none; display: table; margin: 0 auto; }
+.footerwrapper .footerwapper a.nav-link { float: none; }
+.footerwrapper .footerwapper .footer-logo { order: 1; margin: 20px 0; }
+.footerwrapper .footerwapper .footer_icon { order: 2; text-align: center; }
+}
+
+@media (min-width:640px) and (max-width:767px) {
+
+.responsive_logo { display: block; position: relative; margin-top: 20px; }   
+.responsive_logo img {  top: 0; position: absolute; width: 20%; right: 0; left: 0; margin: 0 auto; }
+.responsive_icon { display: block; float: right; } 
+.responsive_icon i { color: #ffffff; float: left; margin-top: 15px; }
+.navbar .nav-item { align-self: inherit; }
+.navbar .navbar-brand { display: none; }
+.navbar .nav-item:nth-child(7) { display: none; }
+.dropdown-item { color: #ffffff; }
+.dropdown-menu { background: none; }
+.navbox { top: 10px; }
+.navbar-toggler { padding: 0; }
+.navbar-toggler-icon { color: #ffffff; }
+.navbar-toggler:focus { box-shadow: none; }
+.navbar-expand-lg .navbar-nav { position: absolute; z-index: 1; background-color: #000000; width: 100%; }
+.navbar-expand-lg .navbar-nav .nav-link { padding: 10px 10px; }
+.navbox .nav-link { color: #ffffff; }
+
+.container { width: 100%; max-width: 100%; } 
+
+/* .sliderbox { margin-top: 0!important; }   */
+.sliderbox .slide .slider_1 { border: 10px solid #373636; padding-bottom: 20px; width: 95%; margin: 40px 15px; }
+.sliderbox .slide .slider_1 .info { background: none; position: initial; text-align: center; padding: 30px 80px 0px 170px; }
+.sliderbox .slide .slider_1 .info a { float: left; }
+.sliderbox .slide .slider_1 .info h3 { margin-top: 60px; margin-bottom: 120px; }
+.sliderbox .slide .slider_1 .info p { border: none; }
+.sliderbox .slide .carousel-control-prev-icon { display: none }
+.sliderbox .slide .carousel-control-next-icon { display: none; }
+.sliderbox .slide .carousel-indicators { display: none; }
+
+.sliderbox .wheat-in-bowl { left: 50px; bottom: 0; }
+.sliderbox .leaf { display: none; }
+.sliderbox .wheat_2 { display: none; }
+.sliderbox .wheat-in-bowl img { width: 120px; }
+
+.our-heritage { width: 90%; margin: -35px auto; }
+.our-heritage h3 { margin-top: 10px; }
+.our-heritage p { width: 95%; margin-top: 10px; }
+.our-heritage figcaption { font-size: 40px; }
+.our-heritage .flour_and_bowl img { width: 120px; }
+.our-heritage .garlic { bottom: -10px; }
+.our-heritage .garlic img { width: 100px; }
+.our-heritage .knife { bottom: 0px; right: -35px; }
+.our-heritage .knife img { width: 220px; }
+.our-heritage figure img { width: 70px; }
+
+.bread_menu { margin-top: 125px; }
+.bread_menu figure { margin: 0; }
+.bread_menu figure img { width: 100px; }
+.our-heritage figcaption { font-size: 40px; }
+.bread_menu .sliderbox .slide .carousel-indicators { top: initial; position: relative; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 .product_size { width: 30%; margin: 0 auto; padding: 10px; }
+/* .bread_menu .sliderbox .slide .slider_two .slider_2 { flex-direction: column; height: auto; } */
+.bread_menu .sliderbox .slide .carousel-control-prev { left: 0; }
+.bread_menu .sliderbox .slide .carousel-control-next { left: 470px; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 { height: auto; }
+.bread_menu .sliderbox .slide .slider_two .slider_2 .product_size .info_2 h3 { margin-bottom: 20px; }
+
+.bread_recipes .lettuce-leaf img { width: 150px; }
+.bread_recipes { margin-top: 80px; }
+.bread_recipes figure img { width: 70px; }
+.bread_recipes h3 { margin-top: 10px; }
+.bread_recipes figcaption { font-size: 40px; }
+.bread_recipes .mainwrapper .single_garlic { left: -40px; }
+.bread_recipes .mainwrapper .cntr { width: 100%; }
+.bread_recipes .mainwrapper .cntr .sliderbox { width: 100%; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-indicators { top: 280px; bottom: 100px; }
+
+.bread_recipes .mainwrapper .info h2 { padding-bottom: 0; }
+.bread_recipes .mainwrapper .info { text-align: center; margin: 0 auto; width: 100%;  }
+.bread_recipes .mainwrapper .info ul { width: 60%; margin: 0 auto; }
+.bread_recipes .mainwrapper .info ul li { text-align: left; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-prev { bottom: 90px; left: 70px; top: 230px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-prev-icon { top: 11px; left: 14px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-next { left: 230px; top: 230px; bottom: 90px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-next-icon { top: 11px; left: 15px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-inner .carousel-item { height: 280px; }
+.bread_recipes .mainwrapper .timecntr { width: 100%; margin: 50px 0 20px 0; }
+.bread_recipes .mainwrapper .timecntr .boderline { width: 95%; }
+.bread_recipes .mainwrapper .timecntr .boderline .boderline_2 { width: 95%; }
+.bread_recipes .yellow_liquid img { width: 120px; }
+.bread_recipes .mainwrapper .wheat_in_bowl_2 img { width: 120px; }
+.bread_recipes .yellow_liquid { left: 30px; }
+.bread_recipes .lettuce-leaf { right: 10px; }
+.bread_recipes .mainwrapper { margin: 0; }
+.bread_recipes .mainwrapper .wheat_in_bowl_2 { right: 10px; bottom: -30px; }
+
+.footerwrapper { border: none; border-radius: 0; margin: 85px auto; text-align: center; }
+.footerwrapper .footerwapper { margin: 0 10px; }
+.footerwrapper .footerwapper p { width: 100%; }
+.footerwrapper .footerwapper img { width: 40%; float: none; display: table; margin: 0 auto; }
+.footerwrapper .footerwapper a.nav-link { float: none; }
+.footerwrapper .footerwapper .footer-logo { order: 1; margin: 20px 0; }
+.footerwrapper .footerwapper .footer_icon { order: 2; text-align: center; }
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+
+.responsive_logo { display: block; position: relative; margin-top: 20px; }   
+.responsive_logo img {  top: 0; position: absolute; width: 30%; right: 0; left: 0; margin: 0 auto; }
+.responsive_icon { display: block; float: right; } 
+.responsive_icon i { color: #ffffff; float: left; margin-top: 15px; }
+.navbar .nav-item { align-self: inherit; }
+.navbar .navbar-brand { display: none; }
+.navbar .nav-item:nth-child(7) { display: none; }
+.dropdown-item { color: #ffffff; }
+.dropdown-menu { background: none; }
+.navbox { top: 10px; }
+.navbar-toggler { padding: 0; }
+.navbar-toggler-icon { color: #ffffff; }
+.navbar-toggler:focus { box-shadow: none; }
+.navbar-expand-lg .navbar-nav { position: absolute; z-index: 1; background-color: #000000; width: 100%; }
+.navbar-expand-lg .navbar-nav .nav-link { padding: 10px 10px; }
+.navbox .nav-link { color: #ffffff; }
+
+.container { width: 100%; max-width: 100%; } 
+
+/* .sliderbox { margin-top: 0!important; }   */
+.sliderbox .slide .slider_1 { border: 10px solid #373636; padding-bottom: 20px; width: 95%; margin: 100px 15px; }
+.sliderbox .slide .slider_1 .info { background: none; position: initial; text-align: center; padding: 30px 40px 0px 200px; }
+.sliderbox .slide .slider_1 .info a { float: left; }
+.sliderbox .slide .slider_1 .info h3 { margin-top: 60px; margin-bottom: 120px; }
+.sliderbox .slide .slider_1 .info p { border: none; }
+.sliderbox .slide .carousel-control-prev-icon { display: none }
+.sliderbox .slide .carousel-control-next-icon { display: none; }
+.sliderbox .slide .carousel-indicators { display: none; }
+
+.sliderbox .wheat-in-bowl { left: 50px; top: 550px; }
+.sliderbox .leaf { display: none; }
+.sliderbox .wheat_2 { display: none; }
+.sliderbox .wheat-in-bowl img { width: 140px; }
+
+.our-heritage { width: 90%; margin: -35px auto; }
+.our-heritage h3 { margin-top: 10px; }
+.our-heritage p { width: 95%; margin-top: 10px; }
+.our-heritage figcaption { font-size: 40px; }
+.our-heritage .flour_and_bowl img { width: 140px; }
+.our-heritage .garlic { bottom: -10px; left: -30px; }
+.our-heritage .garlic img { width: 120px; }
+.our-heritage .knife { bottom: 0px; right: -45px; }
+.our-heritage .knife img { width: 240px; }
+.our-heritage figure img { width: 70px; }
+
+.bread_menu { margin-top: 125px; }
+.bread_menu figure { margin: 0; }
+.bread_menu figure img { width: 100px; }
+.our-heritage figcaption { font-size: 40px; }
+
+.bread_menu .sliderbox .slide .slider_two .slider_2 .product_size { padding: 0 35px; }
+.bread_menu .sliderbox .slide .carousel-control-prev { left: 0; }
+.bread_menu .sliderbox .slide .carousel-control-next { left: 600px; }
+
+
+.bread_recipes .lettuce-leaf img { width: 170px; }
+.bread_recipes { margin-top: 10px; }
+.bread_recipes figure img { width: 70px; }
+.bread_recipes h3 { margin-top: 10px; }
+.bread_recipes figcaption { font-size: 40px; }
+.bread_recipes .mainwrapper .single_garlic { left: -40px; bottom: -40px; }
+.bread_recipes .mainwrapper .cntr { width: 100%; }
+.bread_recipes .mainwrapper .cntr .sliderbox { width: 100%; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-indicators { top: 280px; bottom: 100px; }
+
+.bread_recipes .mainwrapper .info h2 { padding-bottom: 0; }
+.bread_recipes .mainwrapper .info { text-align: center; margin: 0 auto; width: 100%;  }
+.bread_recipes .mainwrapper .info ul { width: 60%; margin: 0 auto; }
+.bread_recipes .mainwrapper .info ul li { text-align: left; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-prev { bottom: 90px; left: 70px; top: 230px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-prev-icon { top: 11px; left: 14px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-next { left: 230px; top: 230px; bottom: 90px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-control-next-icon { top: 11px; left: 15px; }
+.bread_recipes .mainwrapper .cntr .sliderbox .slide .carousel-inner .carousel-item { height: 280px; }
+.bread_recipes .mainwrapper .timecntr { width: 100%; margin: 50px 0 20px 0; }
+.bread_recipes .mainwrapper .timecntr .boderline { width: 95%; }
+.bread_recipes .mainwrapper .timecntr .boderline .boderline_2 { width: 95%; }
+.bread_recipes .yellow_liquid img { width: 140px; }
+.bread_recipes .mainwrapper .wheat_in_bowl_2 img { width: 140px; }
+.bread_recipes .mainwrapper .single_garlic img { width: 150px; }
+.bread_recipes .yellow_liquid { left: 30px; }
+.bread_recipes .lettuce-leaf { right: 10px; }
+.bread_recipes .mainwrapper { margin: 0; }
+.bread_recipes .mainwrapper .wheat_in_bowl_2 { right: 10px; bottom: -30px; }
+
+.footerwrapper { border: none; border-radius: 0; margin-top: 85px; margin-bottom: 80px; text-align: center; }
+.footerwrapper .footerwapper { margin: 0 10px; }
+.footerwrapper .footerwapper .info { width: 60%; }
+.footerwrapper .footerwapper p { width: 100%; }
+.footerwrapper .footerwapper img { width: 40%; float: none; display: table; margin: 0 auto; }
+.footerwrapper .footerwapper a.nav-link { float: none; }
+.footerwrapper .footerwapper .footer-logo { order: 1; margin: 20px 0; width: 60%; }
+.footerwrapper .footerwapper .footer_icon { order: 2; text-align: center; }
+
+
+}
+
